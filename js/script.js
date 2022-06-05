@@ -64,11 +64,10 @@ const swiper = new Swiper('.swiper', {
 });
 
 /* Accordion */
-new Accordion('.que__list', {
-  elementClass: '.que__item',
-  triggerClass: '.que__top',
-  panelClass: '.que__content',
-  activeClass: '.que__content--active'
+$(".accordion").accordion({
+  collapsible: true,
+  active: false,
+  heightStyle: "content",
 });
 
 /* Search */

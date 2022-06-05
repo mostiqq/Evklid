@@ -854,6 +854,20 @@
     max-width: 400px;
   }
 
+  .que__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .que__descr:first-child {
+    margin-bottom: 20px;
+  }
+
+  .ui-accordion-content {
+    padding-bottom: 10px;
+  }
+
   .que__plus {
     width: 30px;
     height: 30px;
